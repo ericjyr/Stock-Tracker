@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/stock-tracker/static/css/main.f855e6bc.css",
-    "main.js": "/stock-tracker/static/js/main.23ed9d54.js",
+    "main.css": "/stock-tracker/static/css/main.767eb09c.css",
+    "main.js": "/stock-tracker/static/js/main.36ecef0e.js",
     "static/js/592.bf90098a.chunk.js": "/stock-tracker/static/js/592.bf90098a.chunk.js",
-    "static/media/logo.svg": "/stock-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/CentraNo2-Bold.ttf": "/stock-tracker/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/stock-tracker/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/stock-tracker/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "index.html": "/stock-tracker/index.html",
-    "main.f855e6bc.css.map": "/stock-tracker/static/css/main.f855e6bc.css.map",
-    "main.23ed9d54.js.map": "/stock-tracker/static/js/main.23ed9d54.js.map",
+    "main.767eb09c.css.map": "/stock-tracker/static/css/main.767eb09c.css.map",
+    "main.36ecef0e.js.map": "/stock-tracker/static/js/main.36ecef0e.js.map",
     "592.bf90098a.chunk.js.map": "/stock-tracker/static/js/592.bf90098a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.23ed9d54.js"
+    "static/css/main.767eb09c.css",
+    "static/js/main.36ecef0e.js"
   ]
 }
