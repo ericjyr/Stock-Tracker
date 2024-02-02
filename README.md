@@ -4,13 +4,19 @@ This innovative project is developed using React.js, offering a dynamic and resp
 
 ## Features
 
-- Users can initiate specific stock searches or conveniently choose from a curated list of provided stocks.
-- Dive into historical stock performance by seamlessly scrubbing through an interactive line graph covering the opening prices of the last 100 days.
-- The graph, powered by Plotly.js, offers a responsive design, facilitating easy zooming for users through intuitive cursor interactions.
+- **Users can initiate specific stock searches or conveniently choose from a curated list of provided stocks.**
 
-## Screenshots
+  ![StockSavvy example](StockSavvy-img.png)
 
-![StockSavvy example](StockSavvy-img.png)
+
+- **Dive into historical stock performance by seamlessly scrubbing through an interactive line graph covering the opening prices of the last 100 days.**
+
+  ![StockSavvy example gif](StockSavvy-gif2.gif)
+
+
+- **The graph, powered by Plotly.js, offers a responsive design, facilitating easy zooming for users through intuitive cursor interactions.**
+
+  ![StockSavvy example gif2](StockSavvy-gif3.gif)
 
 ## Installation
 
