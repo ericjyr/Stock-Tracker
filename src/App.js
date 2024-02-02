@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from "react-bootstrap";
+import Search from './components/Search';
+import Stock from './components/Stock';
+import { Header } from "./components/Header";
 
-function App() {
+
+
+const App = () => {
+  const [searchResult, setSearchResult] = useState(null);
+
+  const handleSearchResult = (result) => {
+    setSearchResult(result);
+    console.log(result.symbol)
+ 
+
+
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header />
+      <Row>
+        <Col xl={5} lg={12}>
+          <Search onSearchResult={handleSearchResult} />
+        </Col>
+        <Col xl={7} lg={12} className='graph-col'>
+          {searchResult && <Stock stock={searchResult} />}
+        </Col>
+      </Row>
+    </Container>
   );
-}
+};
 
 export default App;
