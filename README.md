@@ -1,20 +1,23 @@
 # <p align="center">  ![StockSavvy logo](StockSavvy-logo.png) </p>
 
 This innovative project is developed using React.js, offering a dynamic and responsive user interface. To provide users with stock data, StockSavvy integrates seamlessly with the Polygon.io REST API. Leveraging the power of React.js, the application ensures a smooth and interactive experience, enabling users to explore and analyze stock information effortlessly.
+<p align="center">
+  <a href="https://ericjyr.github.io/stock-tracker/">Visit Stock Tracker</a>
+</p>
 
 ## Features
 
-- **Users can initiate specific stock searches or conveniently choose from a curated list of provided stocks.**
+- Users can initiate specific stock searches or conveniently choose from a curated list of provided stocks.
 
   ![StockSavvy example](StockSavvy-img.png)
 
 
-- **Dive into historical stock performance by seamlessly scrubbing through an interactive line graph covering the opening prices of the last 100 days.**
+- Dive into historical stock performance by seamlessly scrubbing through an interactive line graph covering the opening prices of the last 100 days.
 
   ![StockSavvy example gif](StockSavvy-gif2.gif)
 
 
-- **The graph, powered by Plotly.js, offers a responsive design, facilitating easy zooming for users through intuitive cursor interactions.**
+- The graph, powered by Plotly.js, offers a responsive design, facilitating easy zooming for users through intuitive cursor interactions.
 
   ![StockSavvy example gif2](StockSavvy-gif3.gif)
 
